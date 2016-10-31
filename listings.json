@@ -1,0 +1,28 @@
+{
+  "categories":[{
+    "title": "Cars"
+  },{
+    "title": "Free Stuff"
+  },{
+    "title": "Jobs"
+  },{
+    "title": "Housing"
+  }],
+  "listings":[{
+    "title": "Rust Bucket",
+    "author": "Rusty",
+    "content": "This cars free just get rid of it for me!"
+  },{
+    "title": "IT Worker needed",
+    "author": "Mr.Oldtimer",
+    "content": "I don't know how this computer thingy works but if you could fix it that'd be great. I'll give you $2."
+  },{
+    "title": "2001 Subaru WRX",
+    "author": "Carson Wentz",
+    "content": "Just got drafted to the Eagles, need to push a nicer car!"
+  },{
+    "title": "Crazy roommate needed ASAP!",
+    "author": "Hannibal Lector",
+    "content": "I'd love to have you for dinner."
+  }]
+}
