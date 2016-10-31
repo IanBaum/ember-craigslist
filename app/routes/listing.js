@@ -6,9 +6,20 @@ export default Ember.Route.extend({
   },
 
   actions: {
-    destroyListing(listing) { 
+    destroyListing(listing) {
       listing.destroyRecord();
       this.transitionTo('index');
     },
+
+    update(listing, params) {
+      console.log(listing);
+      Object.keys(params).forEach(function(key) {
+        if(params[key]!==undefined) {
+          listing.set(key,params[key]);
+        }
+      });
+      listing.save();
+      this.transitionTo('index');
+    }
   }
 });

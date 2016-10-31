@@ -5,4 +5,6 @@
 <h3>Author: {{model.author}}</h3>
 <h3>Content: {{model.content}}</h3>
 
+{{update-listing listingToUpdate=model update='update'}}
 <button {{action 'destroyListing' model}}>Delete this Listing</button>
+{{#link-to 'index'}}<button>Home</button>{{/link-to}}
