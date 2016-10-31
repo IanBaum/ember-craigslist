@@ -1,1 +1,8 @@
 {{outlet}}
+<h1>Listing Details:</h1>
+
+<h3>Title: {{model.title}}</h3>
+<h3>Author: {{model.author}}</h3>
+<h3>Content: {{model.content}}</h3>
+
+<button {{action 'destroyListing' model}}>Delete this Listing</button>

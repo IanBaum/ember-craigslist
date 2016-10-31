@@ -1,6 +1,6 @@
 {{yield}}
 <ul>
   {{#each category.listings as |listing|}}
-    <li>{{listing.title}}</li>
+    <li>{{#link-to 'listing' listing.id}}{{listing.title}}{{/link-to}}</li>
   {{/each}}
 </ul>
